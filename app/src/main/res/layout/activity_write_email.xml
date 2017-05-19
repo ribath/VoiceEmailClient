@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_receive_email_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.chtl.mainflow.WriteEmail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/upperHalf"
+        android:background="@color/upperHalf">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tap uppper half to send email. Tap lower half to continue speak"
+            android:id="@+id/textHint"
+            android:textAlignment="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/lowerHalf"
+        android:background="@color/upperHalf">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiverEmailId"
+            android:textAlignment="center"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorAccent"
+            android:text="email"/>
+    </LinearLayout>
+
+</LinearLayout>

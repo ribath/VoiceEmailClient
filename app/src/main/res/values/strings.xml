@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MainFlow</string>
+    <string name="title_activity_mail_reader_list">MailReaderList</string>
+</resources>
